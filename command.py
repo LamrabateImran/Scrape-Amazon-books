@@ -74,13 +74,14 @@ def entry(choice):
 
 def make_choice():
     print("""
-    Action Adventure = AA
-    Arts Film Photography = AFP
-    Biographies Diaries Accounts = BDA
-    Business Economics = BE
-    Children YoungAdult = CY
+          Choose your Favorite Books Tendances:...
+    => Action Adventure = AA
+    => Arts Film Photography = AFP
+    => Biographies Diaries Accounts = BDA
+    => Business Economics = BE
+    => Children YoungAdult = CY
     """)
-    choice = input('Choose your Favorite Books : ')
+    choice = input('Choice : ')
     if choice == 'AA' or choice == 'AFP' or choice == 'BDA' or choice == 'BE' or choice == 'CY':
         entry(choice)
         exit()
